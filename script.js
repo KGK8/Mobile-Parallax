@@ -9,6 +9,6 @@ window.addEventListener('deviceorientation',function(e){
 
     //Parallax Effect
 
-    document.getElementsByClassName('rocket')[0].style.transform = `translateY(-${y}%)`;
+    document.getElementsByClassName('rocket')[0].style.transform = `translateY(-${x}%)`;
 
 });
